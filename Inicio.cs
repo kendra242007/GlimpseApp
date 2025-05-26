@@ -19,8 +19,8 @@ namespace GlimpseApp
 
         private void btncontactos_Click(object sender, EventArgs e)
         {
-            Inicio Inicio = new Inicio();
-            Inicio.Show();
+            Contactos Contactos = new Contactos();
+            Contactos.Show();
 
             this.Hide();
         }
