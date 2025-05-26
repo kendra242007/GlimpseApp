@@ -31,6 +31,7 @@ namespace GlimpseApp
         {
             this.btnvinicio = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.labelale = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnvinicio
@@ -54,11 +55,22 @@ namespace GlimpseApp
             this.label1.TabIndex = 1;
             this.label1.Text = "Datos de las creadoras";
             // 
+            // labelale
+            // 
+            this.labelale.AutoSize = true;
+            this.labelale.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelale.Location = new System.Drawing.Point(61, 152);
+            this.labelale.Name = "labelale";
+            this.labelale.Size = new System.Drawing.Size(384, 60);
+            this.labelale.TabIndex = 3;
+            this.labelale.Text = "Alejandra Jazmin Palencia Mayen 18\r\n\r\npalencia.m.alejandraa.loyola@gmail.com";
+            // 
             // Contactos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 558);
+            this.Controls.Add(this.labelale);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnvinicio);
             this.Name = "Contactos";
@@ -72,5 +84,6 @@ namespace GlimpseApp
 
         private System.Windows.Forms.Button btnvinicio;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelale;
     }
 }
