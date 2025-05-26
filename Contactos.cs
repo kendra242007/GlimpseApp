@@ -19,8 +19,8 @@ namespace GlimpseApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Datos Datos = new Datos();
-            Datos.Show();
+            Inicio Inicio = new Inicio();
+            Inicio.Show();
 
             this.Hide();
 
