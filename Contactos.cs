@@ -10,11 +10,20 @@ using System.Windows.Forms;
 
 namespace GlimpseApp
 {
-    public partial class Datos : Form
+    public partial class Contactos : Form
     {
-        public Datos()
+        public Contactos()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Datos Datos = new Datos();
+            Datos.Show();
+
+            this.Hide();
+
         }
     }
 }

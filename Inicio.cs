@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace GlimpseApp
 {
-    public partial class Datos : Form
+    public partial class Inicio : Form
     {
-        public Datos()
+        public Inicio()
         {
             InitializeComponent();
+        }
+
+        private void btncontactos_Click(object sender, EventArgs e)
+        {
+            Inicio Inicio = new Inicio();
+            Inicio.Show();
+
+            this.Hide();
         }
     }
 }

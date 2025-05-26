@@ -1,7 +1,7 @@
 ﻿
 namespace GlimpseApp
 {
-    partial class Inicio
+    partial class Datos
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -31,13 +31,15 @@ namespace GlimpseApp
         {
             this.SuspendLayout();
             // 
-            // Inicio
+            // Datos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 35F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Inicio";
-            this.Text = "Inicio";
+            this.ClientSize = new System.Drawing.Size(890, 549);
+            this.Font = new System.Drawing.Font("MS Reference Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(10, 8, 10, 8);
+            this.Name = "Datos";
+            this.Text = "Inicio de sesión";
             this.ResumeLayout(false);
 
         }
