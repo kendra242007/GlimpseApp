@@ -32,6 +32,7 @@ namespace GlimpseApp
             this.btnvinicio = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.labelale = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnvinicio
@@ -65,11 +66,22 @@ namespace GlimpseApp
             this.labelale.TabIndex = 3;
             this.labelale.Text = "Alejandra Jazmin Palencia Mayen 18\r\n\r\npalencia.m.alejandraa.loyola@gmail.com";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(61, 244);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(307, 60);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "María Fátima Ramírez Zetino 20\r\n\r\nmaria.ramirez.loyola@gmail.com";
+            // 
             // Contactos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 558);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.labelale);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnvinicio);
@@ -85,5 +97,6 @@ namespace GlimpseApp
         private System.Windows.Forms.Button btnvinicio;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelale;
+        private System.Windows.Forms.Label label2;
     }
 }
